@@ -1,6 +1,7 @@
 @echo off
 title Number guessing game by Christian Revet
-set /p ask1=Would you like to play? yes or no=
+set /p name=Hello! what is your name? name-goes-here=
+set /p ask1=Welcome %name%, would you like to play? yes or no=
 if '%ask1%'=='Yes' goto :next
 if '%ask1%'=='yes' goto :next
 if '%ask1%'=='No' goto :exit
@@ -53,3 +54,4 @@ pause
 cls
 goto :top
 :exit
+msg * goodbye %name%!
