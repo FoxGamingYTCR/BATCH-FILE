@@ -1,5 +1,5 @@
 @echo off
-title Number guessing game by Christian Revet
+title Number guessing game by Fox GamingYT
 set /p name=Hello! what is your name? name-goes-here=
 set /p ask1=Welcome %name%, would you like to play? yes or no=
 if '%ask1%'=='Yes' goto :next
